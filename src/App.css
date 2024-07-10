@@ -1,0 +1,62 @@
+.design{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: green;
+}
+
+.design h1{
+  text-align: center;
+  color:#EFFCF9;
+}
+
+.design ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.design li{
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.design li:last-child{
+  border-bottom: none;
+}
+
+.design input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+.design input[type="text"]{
+  width:75%;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color:#EFFCF9;
+}
+
+.design button{
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.design button:hover{
+  background-color: #3e8e41;
+}
+
+.tab{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+
+
